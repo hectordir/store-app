@@ -1,0 +1,33 @@
+.imagen {
+  width: 100%;
+  height: 190px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-weight: bold;
+  height: 105px;
+}
+
+.sub {
+  width: 280px;
+  height: 45px;
+}
+
+.body {
+  width: 280px;
+  height: 70px;
+}
+
+.boton {
+  background-color: #8b8b8b;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+}
+
+.cartas {
+  background-color: rgb(129, 113, 113);
+  width: 20%;
+  padding: 20px;
+}

@@ -1,7 +1,11 @@
-export default function ProductsPage() {
+import { Navbar } from "../components/Navbar";
+import { ProductsList } from "../components/ProductList/ProductsList";
+
+export function ProductsPage() {
   return (
-    <div>
-      <h1>123</h1>
+    <div className="bg-dark file">
+      <Navbar />
+      <ProductsList />
     </div>
   );
 }

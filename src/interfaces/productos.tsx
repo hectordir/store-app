@@ -10,3 +10,11 @@ export interface Producto {
   discountPercentage: number;
   rating: number;
 }
+
+export interface ProductoResponse {
+  products: Producto[];
+  total: number;
+  skip:number;
+  limit:number;
+
+}

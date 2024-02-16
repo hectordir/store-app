@@ -1,13 +1,9 @@
-import ProductsList from "./components/ProductsList";
+import { ProductsPage } from "./pages/ProductsPage";
 
-interface Props {
-  title?: string;
-  datos?: string;
-}
-export function App({ title }: Props) {
+export function App() {
   return (
     <div>
-      <ProductsList />
+      <ProductsPage />
     </div>
   );
 }

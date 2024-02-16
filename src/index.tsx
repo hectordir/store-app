@@ -8,6 +8,7 @@ import "bootswatch/dist/yeti/bootstrap.min.css";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
     <App />

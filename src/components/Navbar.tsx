@@ -1,7 +1,7 @@
 import carrito from "../img/carrito.png";
 import logo from "../img/logo.png";
 
-export default function Navbar() {
+export  function Navbar() {
   return (
     <nav className="navbar bg-primary">
       <div className="container">
