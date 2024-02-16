@@ -1,0 +1,8 @@
+<p className="contenido">{producto.description}</p>
+
+<p style={{ fontSize: "small" }}>
+                  (Descuento del {producto.discountPercentage}%)
+                </p>
+
+
+<h6 className="stock">Productos en Stock : {producto.stock}</h6>

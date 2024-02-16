@@ -1,0 +1,43 @@
+<div key={producto.id} className="card bg-secondary text-dark m-5">
+            <div className="card-header">
+              <h3 style={{ fontWeight: "bold" }}>{producto.title}</h3>
+              <div>
+                <h3>{producto.brand}</h3>
+              </div>
+              <div>
+                <Rating />
+              </div>
+            </div>
+            <div className="card-body">
+              <img
+                src={producto.thumbnail}
+                alt="product"
+                className="img-fluid width-100"
+              />
+              <p className="mt-2">{producto.category}</p>
+              <p className="mt-2">{producto.description}</p>
+              <del style={{ color: "red" }}>Precio : {producto.price}</del>
+              <h5>
+                Precio :
+                {Math.floor(
+                  descuento(producto.price, producto.discountPercentage)
+                ).toString()}
+              </h5>
+              <h5 style={{ fontWeight: "bold" }}>
+                (Descuento del {producto.discountPercentage}%)
+              </h5>
+              <h6>Productos en Stock : {producto.stock}</h6>
+            </div>
+            <button
+              style={{
+                backgroundColor: "blue",
+                color: "white",
+                padding: "10px 20px",
+                borderRadius: "5px",
+                border: "none",
+                cursor: "pointer",
+              }}
+            >
+              Comprar
+            </button>
+          </div>
